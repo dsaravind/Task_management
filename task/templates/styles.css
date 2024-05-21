@@ -1,0 +1,34 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+#taskScheduler {
+    margin-bottom: 20px;
+}
+
+#taskTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#taskTable th, #taskTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#taskTable th {
+    background-color: #f2f2f2;
+}
+
+#taskTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#taskTable tr:hover {
+    background-color: #ddd;
+}
+
